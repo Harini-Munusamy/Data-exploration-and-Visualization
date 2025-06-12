@@ -1,2 +1,2 @@
 # Data-exploration-and-Visualization
-Exercises on data exploration and visualization on python
+Exercises on data exploration and visualization using python
