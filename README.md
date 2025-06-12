@@ -10,12 +10,12 @@ data = {
 df = pd.DataFrame(data)
 print("DataFrame:")
 print(df)
-# Data Analysis
+
 print("\nData Analysis:")
 print("Mean Age:", df['Age'].mean())
 print("Maximum Score:", df['Score'].max())
 print("Minimum Score:", df['Score'].min())
-# Data Visualization
+
 plt.figure(figsize=(8, 4))
 plt.bar(df['Name'], df['Score'])
 plt.xlabel('Name')
